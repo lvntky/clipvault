@@ -1,12 +1,15 @@
 package clip
 
 import (
-       "fmt"
-       "github.com/atotto/clipboard"
+    "fmt"
+    "github.com/atotto/clipboard"
 )
 
 func pollText() {
-
-     text, _ := clipboard.readAll()
-     fmt.Println(text);
+    text, err := clipboard.ReadAll()
+    if err != nil {
+        fmt.Printf("Error reading clipboard: %v\n", err)
+        return
+    }
+    fmt.Println(text)
 }
