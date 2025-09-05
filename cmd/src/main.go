@@ -1,7 +1,10 @@
 package main
 
-import "fmt"aaajj
+import (
+       "fmt"
+       "github.com/lvntky/clipvault/internal/clip"
+)
 
 func main() {
-     fmt.Println("hello, world!")
+     pollText();
 }
