@@ -1,0 +1,48 @@
+# Binaries
+clipvault
+clipvault.exe
+
+# Build outputs
+/dist/
+/build/
+/bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test cache
+*.test
+
+# Coverage reports
+*.out
+
+# Logs
+*.log
+
+# Dependency directories (Go modules keep deps in module cache, not vendor by default)
+ /vendor/
+
+# Database and runtime data
+/data/
+*.db
+*.ldb
+*.badger
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
